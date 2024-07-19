@@ -1,0 +1,80 @@
+--------- beginning of main
+07-19 14:13:26.690 10159  7388  7403 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+--------- beginning of system
+07-19 14:13:26.735  1000   569   625 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.netology.tabbedapplication/.MainActivity} from uid 10159
+07-19 14:13:26.749 10102  6318  6377 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+07-19 14:13:26.781 10102  6318  6377 I Icing   : Indexing done com.google.android.gms-apps
+07-19 14:13:26.818  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10159; state: ENABLED
+07-19 14:13:26.963  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 174042980; UID 10159; state: DISABLED
+07-19 14:13:26.964  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 184838306; UID 10159; state: DISABLED
+07-19 14:13:26.964  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 185004937; UID 10159; state: DISABLED
+07-19 14:13:26.965  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 181136395; UID 10159; state: DISABLED
+07-19 14:13:26.966  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 174042936; UID 10159; state: DISABLED
+07-19 14:13:26.975  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10159; state: ENABLED
+07-19 14:13:27.021  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10159; state: DISABLED
+07-19 14:13:27.159  1000   569   625 D CompatibilityChangeReporter: Compat change id reported: 194833441; UID 10159; state: DISABLED
+07-19 14:13:27.220 10102  6318  6377 I Icing   : Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+07-19 14:13:27.277 10102  6318  6377 I Icing   : Indexing done com.google.android.gms-internal.3p:MobileApplication
+07-19 14:13:27.315 10102  6318  6377 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+07-19 14:13:27.332 10159  7388  7406 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+07-19 14:13:27.335  1000   569   587 D OomAdjuster: Not killing cached processes
+07-19 14:13:27.346 10102  6318  6377 I Icing   : Indexing done com.google.android.gms-apps
+07-19 14:13:27.350 10159  7388  7406 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+07-19 14:13:27.365  1000   569   872 D CoreBackPreview: Window{3904aa2 u0 Splash Screen com.netology.tabbedapplication}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3f1e469, mPriority=0}
+07-19 14:13:27.382 10102  6318  6377 I Icing   : Indexing com.google.android.settings.intelligence-internal.3p:Thing from com.google.android.settings.intelligence
+07-19 14:13:27.386 10102  6318  6377 I Icing   : Indexing done com.google.android.settings.intelligence-internal.3p:Thing
+07-19 14:13:27.391 10159  7388  7406 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+07-19 14:13:27.402  1000   382   474 D goldfish-address-space: claimShared: Ask to claim region [0x3fb04e000 0x3fb974000]
+07-19 14:13:27.520 10102  6318  6377 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+07-19 14:13:27.538  1000   569   585 W Looper  : Slow dispatch took 147ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=com.android.server.am.UidObserverController$$ExternalSyntheticLambda0@5161a26 m=0
+07-19 14:13:27.559  1000   569   569 W Looper  : Slow dispatch took 182ms main h=android.os.Handler c=<recycled PooledLambda@a18c68e> m=0
+07-19 14:13:27.566 10102  6318  6377 I Icing   : Indexing done com.google.android.gms-apps
+07-19 14:13:27.597  1000   382   474 D goldfish-address-space: claimShared: Ask to claim region [0x3f94dc000 0x3f9e02000]
+07-19 14:13:27.740 10140  1117  1573 D EGL_emulation: app_time_stats: avg=5118.85ms min=5118.85ms max=5118.85ms count=1
+07-19 14:13:27.760  1000   382   474 D goldfish-address-space: claimShared: Ask to claim region [0x3f9e02000 0x3fa728000]
+07-19 14:13:27.766  1000   569   585 W Looper  : Slow dispatch took 228ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=com.android.server.am.UidObserverController$$ExternalSyntheticLambda0@5161a26 m=0
+07-19 14:13:27.789 10142   809   956 W Parcel  : Expecting binder but got null!
+07-19 14:13:27.980 10159  7388  7388 D LifecycleMonitor: Lifecycle status change: com.netology.tabbedapplication.MainActivity@91657dd in: PRE_ON_CREATE
+07-19 14:13:27.981 10159  7388  7388 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+07-19 14:13:27.987  1000   382   474 D goldfish-address-space: claimShared: Ask to claim region [0x3f7d67000 0x3f7fb1000]
+07-19 14:13:28.069  1000   569  7409 D HostConnection: createUnique: call
+07-19 14:13:28.074  1000   569  7409 D HostConnection: HostConnection::get() New Host Connection established 0x7b78f9a2c690, tid 7409
+07-19 14:13:28.095  1000   569  7409 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-19 14:13:28.096  1000   569  7409 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-19 14:13:28.104  1000   569  7409 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+07-19 14:13:28.121  1000   569  7409 D EGL_emulation: eglCreateContext: 0x7b78f9a3cad0: maj 3 min 0 rcv 3
+07-19 14:13:28.181  1000   569  7409 D EGL_emulation: eglMakeCurrent: 0x7b78f9a3cad0: ver 3 0 (tinfo 0x7b7b1b630180) (first time)
+07-19 14:13:28.183  1000   569   872 D HostConnection: createUnique: call
+07-19 14:13:28.183  1000   569   872 D HostConnection: HostConnection::get() New Host Connection established 0x7b78f9a27a10, tid 872
+07-19 14:13:28.188  1000   569   872 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+07-19 14:13:28.295 10142   809   956 D EGL_emulation: app_time_stats: avg=52866.52ms min=86.94ms max=158395.41ms count=3
+07-19 14:13:28.304  1000   569   583 W ActivityManager: Unable to start service Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U=0: not found
+07-19 14:13:28.304  1000   569   583 W RemoteSmartspaceService: could not bind to Intent { act=android.service.smartspace.SmartspaceService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961
+07-19 14:13:28.305  1000   569   569 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@1315dbd
+07-19 14:13:28.381 10159  7388  7388 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10159; state: DISABLED
+07-19 14:13:28.381 10159  7388  7388 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10159; state: ENABLED
+07-19 14:13:28.415 10159  7388  7388 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10159; state: ENABLED
+07-19 14:13:28.431  1000   382   474 D goldfish-address-space: claimShared: Ask to claim region [0x3f60c9000 0x3f66a4000]
+07-19 14:13:28.557 10159  7388  7388 W bbedapplication: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+07-19 14:13:28.565 10159  7388  7388 W bbedapplication: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+07-19 14:13:28.734 10159  7388  7388 D LifecycleMonitor: Lifecycle status change: com.netology.tabbedapplication.MainActivity@91657dd in: CREATED
+07-19 14:13:28.734 10159  7388  7388 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.netology.tabbedapplication.MainActivity@91657dd
+07-19 14:13:28.736 10159  7388  7388 D LifecycleMonitor: Lifecycle status change: com.netology.tabbedapplication.MainActivity@91657dd in: STARTED
+07-19 14:13:28.736 10159
+java.lang.NoSuchMethodError: No static method forceEnableAppTracing()V in class Landroidx/tracing/Trace; or its super classes (declaration of 'androidx.tracing.Trace' appears in /data/app/~~ll0ENVZR4IjlHvEVgfPbHA==/com.netology.tabbedapplication-7qaWDzIsAGGxnU6XXINYeQ==/base.apk)
+	at androidx.test.platform.tracing.AndroidXTracer.enableTracing(AndroidXTracer.java:57)
+	at androidx.test.platform.tracing.Tracing.<init>(Tracing.java:54)
+	at androidx.test.platform.tracing.Tracing.<clinit>(Tracing.java:48)
+	at androidx.test.platform.tracing.Tracing.getInstance(Tracing.java:64)
+	at androidx.test.espresso.base.BaseLayerModule.providesTracing(BaseLayerModule.java:209)
+	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.providesTracing(BaseLayerModule_ProvidesTracingFactory.java:31)
+	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:23)
+	at androidx.test.espresso.base.BaseLayerModule_ProvidesTracingFactory.get(BaseLayerModule_ProvidesTracingFactory.java:9)
+	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:28)
+	at androidx.test.espresso.base.IdlingResourceRegistry_Factory.get(IdlingResourceRegistry_Factory.java:10)
+	at androidx.test.espresso.core.internal.deps.dagger.internal.DoubleCheck.get(DoubleCheck.java:47)
+	at androidx.test.espresso.DaggerBaseLayerComponent.idlingResourceRegistry(DaggerBaseLayerComponent.java:180)
+	at androidx.test.espresso.Espresso.<clinit>(Espresso.java:67)
+	at androidx.test.espresso.Espresso.onView(Espresso.java:89)
+	at com.netology.tabbedapplication.MainActivityTest.mainActivityTest(MainActivityTest.java:40)
